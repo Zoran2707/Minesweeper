@@ -131,7 +131,6 @@
             this.lblIsPlayerAdmin.Size = new System.Drawing.Size(87, 15);
             this.lblIsPlayerAdmin.TabIndex = 5;
             this.lblIsPlayerAdmin.Text = "Is player admin";
-            //this.lblIsPlayerAdmin.Click += new System.EventHandler(this.label6_Click);
             // 
             // lblNumberOfGames
             // 
@@ -199,12 +198,13 @@
             // 
             // btnEdit
             // 
+            this.btnEdit.BackColor = System.Drawing.Color.Red;
             this.btnEdit.Location = new System.Drawing.Point(40, 27);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(75, 23);
             this.btnEdit.TabIndex = 0;
             this.btnEdit.Text = "Edit";
-            this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.UseVisualStyleBackColor = false;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // Edit
